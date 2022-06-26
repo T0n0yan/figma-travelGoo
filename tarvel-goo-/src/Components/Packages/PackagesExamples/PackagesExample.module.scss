@@ -1,0 +1,85 @@
+
+
+
+.packagesExampleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    &>div{
+        margin: 1rem;
+    }
+    .texts{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        bottom: 0;
+        height: 10rem;
+        font-family: 'Open Sans';
+        padding: 0.5rem 1rem 1rem 1rem ; 
+    }
+    .priceAndDays{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .packagesDescription{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+    }
+    .packagesLoc{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .price:hover{
+        font-size: 1.3rem ;
+        color: rgb(255, 0, 0);
+        transition: 0.5s reverse ;
+    }
+    .locContainer{
+        display: flex;
+    }
+    .knowMore{
+        text-decoration: underline;
+        &:hover{
+            cursor: pointer;
+            color: red;
+        }
+    }
+}
+
+
+
+
+
+.packagesImg1{
+   background-image: url('./../../../assets/Images/1ex.jpg');
+   background-size: percentage($number: 1);
+   width: 24.5rem;
+   height: 30rem;
+   position: relative;
+   border-radius: 0.8rem;
+}
+.packagesImg2{
+    background-image: url('./../../../assets/Images/ex2.png');
+    background-size: percentage($number: 1);
+    width: 24.5rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 0.8rem;
+ }
+ .packagesImg3{
+    background-image: url('./../../../assets/Images/3ex.png');
+    background-size: percentage($number: 1);
+    width: 24.5rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 0.8rem;
+ }
+  

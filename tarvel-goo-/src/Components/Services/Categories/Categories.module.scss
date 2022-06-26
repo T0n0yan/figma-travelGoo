@@ -1,0 +1,40 @@
+.categoriesContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3rem;
+    .categoriesItem{
+        width: 23rem;
+        height: 13rem;
+        border-radius: 1rem;
+        background-color: #F9F9F9;
+        transition: 0.3s;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        &:hover{
+            box-shadow: 4px 4px 20px 5px rgb(50, 47, 47) ;
+        }
+        .categoriesFirstText{
+            font-style: 1.5rem;
+            font-family: "Open Sans";
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-left: 1.5rem;
+        }
+        .categoriesSecondText{
+            font-style: 1rem;
+            font-family: "open Sans";
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+        }
+        .categoriesIcons{
+            width: 3rem;
+            height: 2rem;
+            margin: 2rem 0 0 1.5rem;
+        }
+    }
+}
+
+
+
+

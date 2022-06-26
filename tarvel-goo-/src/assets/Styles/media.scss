@@ -1,0 +1,9 @@
+$desktop-m:750px;
+
+
+
+@mixin desktop-m {
+    @media(max-width: $desktop-m){
+        @content;
+    }
+}

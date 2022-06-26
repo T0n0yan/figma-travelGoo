@@ -1,0 +1,19 @@
+@import './../../assets/Styles/media.scss';
+
+.bookSection{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    border: 1px solid black;
+    .header{
+        display: flex;
+        width: 44rem;
+        height: 2rem;
+        border: 1px solid red;
+    }
+    @include desktop-m {
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+}
